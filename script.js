@@ -80,26 +80,38 @@
 // }
 // console.log("Done");
 
+
     //  ---FUNCTION---
-    const hello = ()=>{
-        console.log("Hello World");
-        console.log("hi");
-    }
-function oneplusavg(x,y){
-    console.log("done");
-    return 1+ (x+y)/2;
-}
+//     const hello = ()=>{
+//         console.log("Hello World");
+//         console.log("hi");
+//     }
+// function oneplusavg(x,y){
+//     console.log("done");
+//     return 1+ (x+y)/2;
+// }
 
-const sum= (p,q)=>{   ///NEW WAY TO WRITE FUNCTION
-    return p+q;
-}
-    let a=3;
-    let b=9;
-    let c=8;
-    let d;
+// const sum= (p,q)=>{   ///NEW WAY TO WRITE FUNCTION
+//     return p+q;
+// }
+//     let a=3;
+//     let b=9;
+//     let c=8;
+//     let d;
 
-    let v= hello();
-    console.log("one + avg of a and b is ", oneplusavg(a,b))
-    console.log("one + avg of b and c is ", oneplusavg(b,c))
-    console.log("one + avg of c and d is ", oneplusavg(c,d))
-    console.log(sum(8,2));
+//     let v= hello();
+//     console.log("one + avg of a and b is ", oneplusavg(a,b))
+//     console.log("one + avg of b and c is ", oneplusavg(b,c))
+//     console.log("one + avg of c and d is ", oneplusavg(c,d))
+//     console.log(sum(8,2));
+
+
+////FOR LOOP---- 
+
+let sum =0;
+let n=parseInt(prompt("Enter the number"));
+for(var i=0;i<=n;i++){ //let = scope inside loop only 
+sum = sum+i;
+}
+console.log("sum " +  n + " natural num is " + sum);
+console.log(i);  

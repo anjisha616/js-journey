@@ -108,10 +108,11 @@
 
 ////FOR LOOP---- 
 
-let sum =0;
-let n=parseInt(prompt("Enter the number"));
-for(var i=0;i<=n;i++){ //let = scope inside loop only 
-sum = sum+i;
-}
-console.log("sum " +  n + " natural num is " + sum);
-console.log(i);  
+// let sum =0;
+// let n=parseInt(prompt("Enter the number"));
+// for(var i=0;i<=n;i++){ //let = scope inside loop only 
+// sum = sum+i;
+// }
+// console.log("sum " +  n + " natural num is " + sum);
+// console.log(i);  
+

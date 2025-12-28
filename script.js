@@ -106,7 +106,7 @@
 //     console.log(sum(8,2));
 
 
-////FOR LOOP---- 
+////-----FOR LOOP---- 
 
 // let sum =0;
 // let n=parseInt(prompt("Enter the number"));
@@ -115,4 +115,126 @@
 // }
 // console.log("sum " +  n + " natural num is " + sum);
 // console.log(i);  
+// let name="anji";
+// console.log(name.length)      //This is propertu
+// console.log(name.toUpperCase())   //This id method
+// console.log(name.slice(2,3))
+// console.log(name.replace("anji","Onj"))
 
+// let friend = "Esa"
+// console.log(name.concat("is a friend of"), friend)    ///USED TO JOIN TWo STRINGS
+
+// let friend2 = "    Mina   "
+// console.log(friend2.trim()) ///remove extra space
+
+// let fr= "Mina";
+// console.log(fr);
+// console.log(fr[0]);
+
+// ****PRACTICE*****
+              //PROB1///
+// let string= "hello world";
+// console.log(string.toUpperCase())
+
+              ///PROB2///
+// let amount = "Please give RS 1000";
+// console.log(amount.slice(15,19))
+
+               ///prob3///
+    //    let friend= "Rahul";
+    //    friend[3]= "o";
+    //    console.log(friend);    ///HERE FRIEND IS NOT CHANGED CIZ STRING IS IMMUTABLE
+
+
+
+      ///-----ARRAY_METHODSS----///
+
+//       let marks = [21,88,11,22,111];
+// //       console.log(marks);
+// //       let b= marks.toString();
+// //       console.log(b, typeof b)
+// //       let c= marks.join(" and ");
+// //       console.log(c,typeof c)
+
+
+// // let d= marks.pop();  //pop out last element
+// // console.log(marks,d)
+// // let e= marks.push(00); //add element att last
+// // console.log(marks,e);
+
+// let f= marks.shift();   //rmove first element and return it
+// console.log(marks,f);
+
+// let g= marks.unshift(13); ///add element in first
+// console.log(marks,g);
+// let num=[1,2,3,4,5,6,7];
+// // delete num[0];     ///delete element withoout changing og length
+// // console.log(num);
+
+// let num2 = [23,11,34,32,13,76];
+// let new_arry = num.concat(num2)    ///add 2 arrays
+// console.log(new_arry)
+    
+                //SORT METHOD///
+    // let num=[33,211,300,2,3,90,34,56]   ///arrang in alphabetic order
+    // console.log(num.sort())
+
+    // let compare = (a,b)=>{
+    //   return a-b;
+    // }
+    // let num =[2,12,33,1,800,200];
+    // num.sort(compare);    //arange data in acending order
+    // num.reverse()      //reverase compare vako array
+    // console.log(num); 
+
+    ///SPLICE AND SLICE METHOD
+
+  //   let arry= [2,99,33,21,34,433,245]
+  // // arry.splice(3,2,2000,3111);    ///remove 2 ekement from index 3 and added 2000 and 3111
+  // // console.log(arry)
+
+  // let new_arry=arry.slice(2,5); //inclue index of 2but not index of 5 
+  // console.log(new_arry)
+
+        ///------LOOP IN ARRAY------///
+ let num =[3,2,45,78,65,66]
+
+// for(let i=0;i<num.length;i++){
+//   console.log(num[i]);
+// }
+
+// num.forEach(element => {
+//   console.log(element* element)     ///sqre of each loop
+// });
+
+
+    // **FROM LOOP**
+// let name= "Anji";
+// let arr= Array.from(name);
+// console.log(arr)
+
+// for(let i of num){
+//   console.log(i);
+// }
+
+   //***MAP */
+// let array= [2,1,33,21,33,21]
+//  let new_arry = array.map((value) => {
+//   console.log(value+1);
+//   return value;
+//  })
+//  console.log(new_arry) 
+
+ //**FILTER**//
+//  let a1= [3,1,12,33,994,48,233]
+//  let a2= a1.filter((a) =>{
+// return a>10;     ///filteers value greater than
+//  })
+//  console.log(a2);
+ 
+   ///**REDUCE ***//
+   let a=[2,4,22,11,31,8]
+   let a1 = a.reduce((h1,h2) => {
+    return h1+h2
+   })
+console.log(a1);
